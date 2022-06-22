@@ -36,7 +36,6 @@ body {
 
 /****************************************** Main *******************************************/
 main {
-    /* background-color: rgb(8, 126, 37); */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -81,7 +80,6 @@ section.img {
     margin: 0 0 26px 0;
     font-family: var(--font-family-inter);
     font-weight: var(--weight-700);
-    /* font-size: 30px; */
     font-size: 1.9rem;
     color: var(--white-main-heading-stats);
     letter-spacing: 0.9px;
@@ -99,7 +97,6 @@ section.img {
 }
 
 .description .item-info {
-    /* background-color: rgb(29, 52, 46); */
     margin-top: 18%;
     display: flex;
     justify-content: flex-start;
@@ -139,7 +136,6 @@ section.img {
     .description {
         grid-area: desc;
         text-align: center;
-        /* background-color: rgb(24, 97, 97); */
     }
 
     .description h1 {
@@ -147,11 +143,9 @@ section.img {
     }
 
     .description .item-info {
-        /* background-color: rgb(29, 52, 46); */
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
-        /* justify-content: flex-start; */
         gap: 30px;
     }
 }
