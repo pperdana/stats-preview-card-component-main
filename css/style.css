@@ -55,7 +55,7 @@ main {
 }
 
 /*********************** Img Figure  ***************************/
-section.img {
+div.img {
     background-color: var(--soft-violet-accent);
     align-self: center;
     display: flex;
@@ -127,7 +127,7 @@ section.img {
     }
 
     /*********************** Img Figure  ***************************/
-    section.img {
+    div.img {
         grid-area: image;
         border-radius: 10px 10px 0 0;
     }
